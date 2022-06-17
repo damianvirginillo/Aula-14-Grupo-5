@@ -10,7 +10,7 @@
 
 ## 5) Ceremonia
 
-#Python
+# Python
 
 ## Codigos basicos
 
