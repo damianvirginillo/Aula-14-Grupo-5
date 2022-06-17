@@ -12,6 +12,6 @@
 
 # Python
 
-## Codigos basicos
+## 1)Codigos basicos
 
-## Historia
+## 2)Historia
