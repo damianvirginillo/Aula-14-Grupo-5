@@ -5,3 +5,5 @@
 ## 2) Artefactos
 
 ## 3) Funciones
+
+## 3) Manifiesto Agile
