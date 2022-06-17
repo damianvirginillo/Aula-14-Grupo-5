@@ -1,1 +1,3 @@
-# Ideas Pricipales
+# Ideas Pricipales del Scrum
+
+#
