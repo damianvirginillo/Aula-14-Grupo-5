@@ -6,4 +6,4 @@
 
 ## 3) Funciones
 
-## 3) Manifiesto Agile
+## 4) Manifiesto Agile
