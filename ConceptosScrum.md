@@ -6,12 +6,5 @@
 
 ## 3) Funciones
 
-## 4) Manifiesto Agile
+## 4) Ceremonia
 
-## 5) Ceremonia
-
-# Python
-
-## 1) Codigos basicos
-
-## 2) Historia
