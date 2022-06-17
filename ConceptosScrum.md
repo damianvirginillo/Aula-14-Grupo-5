@@ -9,3 +9,9 @@
 ## 4) Manifiesto Agile
 
 ## 5) Ceremonia
+
+#Python
+
+## Codigos basicos
+
+## Historia
