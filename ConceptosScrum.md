@@ -1,4 +1,4 @@
-# Scrum
+# Conceptos de Scrum
 
 # Issues °1
 
