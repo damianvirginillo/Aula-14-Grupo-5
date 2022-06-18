@@ -4,6 +4,8 @@
 
 ## Scrum
 
+Hola mundo
+
 # Issues °2
 
 ## Artefactos
