@@ -1,4 +1,4 @@
-# Ideas Pricipales del Scrum
+# Scrum
 
 # Issues °1
 
