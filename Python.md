@@ -1,7 +1,17 @@
-# Origen de Python
+# Python
 
-# Familias de Python
+# Issues 5°
 
-# Caracteristicas
+## Origen de Python
 
-# Ventajas y desventajas
+# Issues 6°
+
+## Familias de Python
+
+# Issues 7°
+
+## Caracteristicas
+
+# Issues 8°
+
+## Ventajas y desventajas
