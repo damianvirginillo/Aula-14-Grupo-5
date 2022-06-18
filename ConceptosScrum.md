@@ -1,12 +1,18 @@
 # Ideas Pricipales del Scrum
 
-## 1) Scrum
+# Issues °1
 
-hola mundo
+## Scrum
 
-## 2) Artefactos
+# Issues °2
 
-## 3) Funciones
+## Artefactos
 
-## 4) Ceremonia
+# Issues °3
+
+## Funciones
+
+# Issues °4
+
+## Ceremonia
 
