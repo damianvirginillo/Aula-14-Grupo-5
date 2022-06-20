@@ -7,7 +7,7 @@ Las competencias tecnicas ,tambien llamadas competencias especificas o hard skil
 # Issues °18
 
 ## Habilidades trasversales
-
+Las competencias  transversales  o soft skills son todas aquellas habilidades,conocimientos y actitudes que pueden ser generalizados a cualquier entorno laboral, es decir, se pueden poner en practica en distintos tipos de profesiones, sirven para desarrollar diferentes ocupaciones.Algunas competencias transversales son: trabajo en equipo, adaptabilidad, iniciativa, pensamiento critico, inteligencia emocional y autonomia.
 # Issues °19
 
 ## Comunicacion asertiva
