@@ -23,7 +23,7 @@
 
 ### -La compilación en si misma puede llevar mucho tiempo; es posible que no se pueda ejecutar el código
 ### inmediatamente después de cualquier modificación.
-### -
+### -Se deben tener tantos compiladores como plataformas de hardware en las que se deseé que el código se ejecute.
     
 
 # Issues 8°
