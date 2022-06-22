@@ -10,8 +10,8 @@
 
 # Issues 7°
 
-## Caracteristicas
+## Ventajas y desventajas en Python
 
 # Issues 8°
 
-## Ventajas y desventajas
+## Funciones principales
