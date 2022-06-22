@@ -14,8 +14,10 @@
 
 ### Python es un lenguaje interpretado, esto le aplica las siguientes ventajas:
 
-### -La Ejecución del código traducido suele ser + rápida
+### -La Ejecución del código traducido suele ser más rápida.
 ### -Solo el programador debe tener el compilador, el usuario final puede usar el código sin él.
+### -El código traducido se almacena en lenguaje máquina, ya que es muy dificl de entender, es probable
+### mantener en secreto los inventos o trucos del programador.
 
     
 
