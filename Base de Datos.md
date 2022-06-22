@@ -550,6 +550,8 @@ Bajo este nombre se agrupan las bases de datos (con arquitecturas muy diversas) 
 
 # Issues °16
 
+## Modelo relacional
+
 
 
 
