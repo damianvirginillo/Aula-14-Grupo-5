@@ -134,6 +134,8 @@ Década de los 90´:
  -Empresas denominadas BigTech, se hacen del control del manejo de grandes cantidades de volúmenes de información. Al tener recursos suficientes, crean Servicios en la nube para el resguardo completo de la información de un SI (Sistema de Información). Con una infinidad de herramientas y tecnologías a tal efecto, se convierten en los amos y señores del manejo de la información. Algunos de los ejemplos son: AWS de Amazon, Azure de Microsoft, GCP de Google. Haciendo que el concepto de Base de datos cambie en forma radical.
  
  # Issues °14
+ 
+ ## MySQL
 
 # Issues °15
 
