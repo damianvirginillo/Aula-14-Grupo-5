@@ -29,3 +29,5 @@
 # Issues 8°
 
 ## Funciones principales
+
+### print() ------->
