@@ -206,7 +206,7 @@ determinado no deben ser inferiores a una cantidad. Esto implica añadir gran n�
 código en los programas. El problema se complica cuando existen restricciones que implican varios
 datos en distintos archivos.
 
-Sistemas de Información orientados a los datos. Bases de Dat:
+Sistemas de Información orientados a los datos. Bases de Datos:
 
 Una BD es un gran almacén de datos que se define una sola vez; los datos pueden ser accedidos de
 forma simultánea por varios usuarios; están relacionados y existe un número mínimo de duplicidad;
@@ -261,7 +261,7 @@ caso de fallos en el sistema.
 -Herramientas para la gestión de la comunicación: de la base de datos.
 -Herramientas para la creación de aplicaciones: que utilicen esquemas externos de los datos.
 -Herramientas de instalación: de la base de datos.
--Herramientas para la exportación e importación: de datos.
+-Herramientas para la exportación e importación de datos.
 
 Niveles de abstracción de una base de datos:
 
