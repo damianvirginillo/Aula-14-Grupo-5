@@ -19,6 +19,11 @@
 ### -El código traducido se almacena en lenguaje máquina, ya que es muy dificl de entender, es probable
 ### mantener en secreto los inventos o trucos del programador.
 
+### Y también las siguientes desventajas:
+
+### -La compilación en si misma puede llevar mucho tiempo; es posible que no se pueda ejecutar el código
+### inmediatamente después de cualquier modificación.
+### -
     
 
 # Issues 8°
