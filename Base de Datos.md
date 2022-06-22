@@ -1,4 +1,7 @@
-# Base de datos:  
+# Base de datos:
+
+## Issues °13
+
 Los orígenes de las bases de datos se remontan a la Antigüedad donde ya existían bibliotecas y toda clase de registros. Además también se utilizaban para recoger información sobre las cosechas y censos. Sin embargo, su búsqueda era lenta y poco eficaz y no se contaba con la ayuda de máquinas que pudiesen reemplazar el trabajo manual.
  Las mujeres crearon y fundaron, de alguna manera los cimientos de la programación moderna.
  En el mundo actual existe una cada vez mayor demanda de datos. Esta demanda siempre ha sido
@@ -128,7 +131,7 @@ Década de los 90´:
 
  -Empresas denominadas BigTech, se hacen del control del manejo de grandes cantidades de volúmenes de información. Al tener recursos suficientes, crean Servicios en la nube para el resguardo completo de la información de un SI (Sistema de Información). Con una infinidad de herramientas y tecnologías a tal efecto, se convierten en los amos y señores del manejo de la información. Algunos de los ejemplos son: AWS de Amazon, Azure de Microsoft, GCP de Google. Haciendo que el concepto de Base de datos cambie en forma radical.
 
-# Issues °15
+## Issues °15
 
 Sistemas Gestores de Bases de Datos:
 
