@@ -139,7 +139,7 @@ Década de los 90´:
 
 # Issues °15
 
-##Sistemas Gestores de Bases de Datos
+## Sistemas Gestores de Bases de Datos
 
 Una base de datos (database) almacena datos y los conecta en una unidad lógica junto a los metadatos necesarios para su procesamiento.  
 Siendo los datos y el almacenamiento de los mismos, un pilar fundamental de la vida moderna.
