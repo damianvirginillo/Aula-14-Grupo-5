@@ -17,7 +17,7 @@
 ### - La Ejecución del código traducido suele ser más rápida.
 ### - Solo el programador debe tener el compilador, el usuario final puede usar el código sin él.
 ### - El código traducido se almacena en lenguaje máquina, ya que es muy dificl de entender, es probable
-###    mantener en secreto los inventos o trucos del programador.
+###   mantener en secreto los inventos o trucos del programador.
 
 ### Y también las siguientes desventajas:
 
