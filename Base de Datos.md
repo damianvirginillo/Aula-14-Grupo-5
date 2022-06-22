@@ -1,6 +1,8 @@
 # Base de datos:
 
-## Issues °13
+# Issues °13
+
+## Historia y evolucion
 
 Los orígenes de las bases de datos se remontan a la Antigüedad donde ya existían bibliotecas y toda clase de registros. Además también se utilizaban para recoger información sobre las cosechas y censos. Sin embargo, su búsqueda era lenta y poco eficaz y no se contaba con la ayuda de máquinas que pudiesen reemplazar el trabajo manual.
  Las mujeres crearon y fundaron, de alguna manera los cimientos de la programación moderna.
@@ -130,10 +132,12 @@ Década de los 90´:
  -Aparecen SGBD que sus servicios pueden ser accedidos desde la nube, como el proyecto de Firebird
 
  -Empresas denominadas BigTech, se hacen del control del manejo de grandes cantidades de volúmenes de información. Al tener recursos suficientes, crean Servicios en la nube para el resguardo completo de la información de un SI (Sistema de Información). Con una infinidad de herramientas y tecnologías a tal efecto, se convierten en los amos y señores del manejo de la información. Algunos de los ejemplos son: AWS de Amazon, Azure de Microsoft, GCP de Google. Haciendo que el concepto de Base de datos cambie en forma radical.
+ 
+ # Issues °14
 
-## Issues °15
+# Issues °15
 
-Sistemas Gestores de Bases de Datos:
+##Sistemas Gestores de Bases de Datos
 
 Una base de datos (database) almacena datos y los conecta en una unidad lógica junto a los metadatos necesarios para su procesamiento.  
 Siendo los datos y el almacenamiento de los mismos, un pilar fundamental de la vida moderna.
@@ -542,7 +546,7 @@ Bases de datos NoSQL:
 
 Bajo este nombre se agrupan las bases de datos (con arquitecturas muy diversas) pensadas para grabar los datos de manera veloz para así poder atender a miles y miles de peticiones. Es decir, es el modelo de las bases de datos que se utilizan en los grandes servicios de Internet (como twitter, Facebook, Amazon,…). La idea es que los datos apenas necesitan validarse y relacionarse y lo importante es la disponibilidad de la propia base de datos. El nombre NoSQL, hace referencia a que este modelo de bases de datos rompe con el lenguaje SQL (el lenguaje de las bases de datos relacionales, las bases de datos dominantes hasta la actualidad) para poder manipular los datos con lenguajes de otro tipo.
 
-
+# Issues °16
 
 
 
