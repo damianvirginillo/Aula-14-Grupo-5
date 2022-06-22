@@ -12,6 +12,8 @@
 
 ## Ventajas y desventajas en Python
 
+### Python es un lenguaje interpretado, esto le aplica las siguientes ventajas:
+
 # Issues 8°
 
 ## Funciones principales
