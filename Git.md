@@ -6,7 +6,9 @@
 Git es un proyecto de código abierto y maduro y con un activo manntenimiento desarrolado originalmente por Linus Torvals. Funciona bajo cualquier plataforma.
 ### 
 SISTEMA DE CONTROL DE VERSIONES: Es el proceso de desarrollo de software, es un requisito casi indispensable mantener un registro de los cambios que se realizan sobre el código fuente a lo largo del tiempo. Es debido a esto que cobran importancia los sitemas de control de versiones distribuidas permiten en cambio continuar el trabajo aún cuando el respoitorio de referencia no está disponible.
+### 
 HISTORIAL DE CAMBIOS: gracias al historial de cambios se puede saber el autor, la fecha y notas escrits sobre los cambios realizados. También permite volver a versiones anteriores para ayudar a analizar causas, raíces de errores y es crucial cuando hay que solucionar problemas de versiones anteriores. 
+### 
 CREACIÓN Y FUSIÓN DE RAMAS: Al tener varios integrantes del equipo trabajando al mismo tiempo, cada uno en una tarea diferente, pueden beneficiarse de tener flujos de trabajos o ramas a una principal.
 ###
 -Rendimiento: Los algoritmos implementados en Git aprovechan el profundo conocimiento sobre los atributos comunes de los auténticos árboles de archivos de código fuente, cómo suelen modificarse con el paso del tiempo y cuáles son los patrones de acceso. 
