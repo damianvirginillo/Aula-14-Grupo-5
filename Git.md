@@ -36,7 +36,7 @@ es el comando para inicializar un directorio como repositorio Git, se ejecuta de
 ### git commit
   Con este comando se confirman todos los cambios registrados en el área de preparación, o lo que es lo mismo, se pasan los cambios al repositorio local. 
 ### git push
-  Es ele comando que se utiliza para enviar todas las confirmaciones registradas en el repositorio locan a un repositorio remoto. 
+  Es el comando que se utiliza para enviar todas las confirmaciones registradas en el repositorio locan a un repositorio remoto. 
 ### git pull
   Funciona al inverso de git push, trayendo todos los cambios al repositorio local, pero también dejándolos disponibles directamente para su modificación o revisión en el área de trabajo. Es importante mencionar que se utiliza cuando ya se tiene un repositorio local vinculado a uno remoto, al igul que con el comando git push.
 ### git clone
