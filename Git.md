@@ -27,6 +27,20 @@ CREACIÓN Y FUSIÓN DE RAMAS: Al tener varios integrantes del equipo trabajando 
 
 # Isusue °10
 ## Comandos basicos
+### git init
+es el comando para inicializar un directorio como repositorio Git, se ejecuta dentro del directorio del proyecto y, como resultado, crea un subdirectorio .git que contiene todos los archivos para poder realizar el seguimiento de los cambios, etiquetas, etc.
+### git add <file>
+  Luego de la creación, modificación o eliminación de un archivo, los cambios quedan únicamente en el área de trabajo, por lo tanto es necesario pasarlos al área de preparación mediante el uso del comando git add, para que sea incluido dentro de la siguiente confirmación (commit)
+### git status
+  Es un comando que permite conocer en qué estado se encuentran los archivos. 
+### git commit
+  Con este comando se confirman todos los cambios registrados en el área de preparación, o lo que es lo mismo, se pasan los cambios al repositorio local. 
+### git push
+  Es ele comando que se utiliza para enviar todas las confirmaciones registradas en el repositorio locan a un repositorio remoto. 
+### git pull
+  Funciona al inverso de git push, trayendo todos los cambios al repositorio local, pero también dejándolos disponibles directamente para su modificación o revisión en el área de trabajo. Es importante mencionar que se utiliza cuando ya se tiene un repositorio local vinculado a uno remoto, al igul que con el comando git push.
+### git clone
+  En el caso de necesitar "bajar" un repositorio remoto de algún proyecto ya exitente se puede ejecutar este comando. Genera un directorio(con el nombre del repositorio o uno especificado explícitamente) que contiene todo lo propio al proyecto, además del subdirectorio .git necesario para poder gestionar los cambios y todo lo pertienente al repositorio Git. 
 
 # Isusue °11
 ## Vejatas de git
