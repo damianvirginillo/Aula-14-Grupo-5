@@ -21,4 +21,16 @@
 # Issues °4
 
 ## Ceremonia
+Las ceremonias de Scrum son algo esencial en los procesos de desarrollo de software Agile basado en Scrum. Son prácticas que definen a la metodología Scrum y tanto importan que algunos dirían que sin ellas el equipo no podría agilizarse de ninguna manera.
 
+Aunque la eficiencia de un equipo de desarrollo tiene que ver más con el enfoque táctico y estratégico que se tenga, y la experiencia y prácticas de ingeniería colaborativa que el equipo maneje, las ceremonias de Scrum sí facilitan los métodos de comunicación, algo que beneficia en gran medida cualquier proyecto.
+
+Independientemente del Software de Gestión de Proyectos o el Software de Gestión Ágil de Proyectos que se utilice, las ceremonias de Scrum fueron diseñadas para ofrecer resultados.
+
+### Un Sprint normal tendría los siguiente eventos o ceremonias:
+
+1. El **Sprint Planning** al comienzo del Sprint
+2. **Daily Scrums** a diario
+3. Un **Sprint Review** al final del Sprint para inspeccionar el incremento realizado.
+4. Una Retrospectiva (**Sprint Retrospective**) para inspeccionar el equipo y levantar mejoras que se apliquen en el siguiente Sprint.
+5. Adicionalmente se ha incorporado también una reunión de **Grooming** o **Refinement**, que sirve para, dentro del Sprint, afinar y aclarar ciertas historias de usuario que pudieron quedar pendientes durante el Sprint Planning.
