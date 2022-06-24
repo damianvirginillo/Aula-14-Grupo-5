@@ -31,3 +31,5 @@
 ### print() -------> Permite imprimir en pantalla lo que esta dentro de los parentesis. La utilización de comillas permite imprimir el textual dentro de ellas.
 ### input() -------> Es la función que permite la interacción del usuario con el programa, sirve para introducir datos por teclado, voz, imagen, etc.
 ### int() ---------> Transforma las cadenas ingresadas por el usuario en números enteros para poder ser usados en operaciones matemáticas por ejemplo.
+### if ------------> Es una instrución condicional, es decir que solo se ejecutará si la expresión que la acompaña se verfica como verdadera (true).
+### While ---------> A diferencia de -if- que ejecuta la instrucción solo una vez si es -true-, while la va a ejecutar siempre que se evalue como -true-.
