@@ -30,4 +30,4 @@
 
 ## Funciones principales
 
-### print() -------> 
+### print() -------> Permite imprimir en pantalla lo que esta dentro de los parentesis. La utilización de comillas permite imprimir el textual dentro de ellas.
