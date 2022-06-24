@@ -30,4 +30,4 @@
 
 ### print() -------> Permite imprimir en pantalla lo que esta dentro de los parentesis. La utilización de comillas permite imprimir el textual dentro de ellas.
 ### input() -------> Es la función que permite la interacción del usuario con el programa, sirve para introducir datos por teclado, voz, imagen, etc.
-### int() ---------> Transforma las cadenas ingresadas por el usuario en números enteros para poder ser usados en operaciones matematicas por ejemplo.
+### int() ---------> Transforma las cadenas ingresadas por el usuario en números enteros para poder ser usados en operaciones matemáticas por ejemplo.
