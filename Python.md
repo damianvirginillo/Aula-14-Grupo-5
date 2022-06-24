@@ -33,5 +33,6 @@
 ### int() ---------> Transforma las cadenas ingresadas por el usuario en números enteros para poder ser usados en operaciones matemáticas por ejemplo.
 ### if ------------> Es una instrución condicional, es decir que solo se ejecutará si la expresión que la acompaña se verfica como verdadera (true).
 ### While ---------> A diferencia de -if- que ejecuta la instrucción solo una vez si es -true-, while la va a ejecutar siempre que se evalue como -true-. El cuerpo del bucle vuelve a iniciar una vez completado.
-### for -----------> permite definir la cantidad de iteraciones del ciclo. Se acompaña de la variable de control -i- y de la función range() la cual permitará asignarle valores enteros como argumento que serán los que adoptara la variable de control.
-### break ---------> cuando se cumple la condición, termina el bucle drásticamente sin completar las iteraciones y continúa con la primera instrucción fuera del bucle
+### for -----------> Permite definir la cantidad de iteraciones del ciclo. Se acompaña de la variable de control -i- y de la función range() la cual permitará asignarle valores enteros como argumento que serán los que adoptara la variable de control.
+### break ---------> Cuando se cumple la condición, termina el bucle drásticamente sin completar las iteraciones y continúa con la primera instrucción fuera del bucle.
+### continue ------> Cuando se cumple la condición, salta en esa iteración, llega al final del bucle y empieza en la siguiente y termina conlas iteraciones faltantes.
