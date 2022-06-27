@@ -585,9 +585,190 @@ Bajo este nombre se agrupan las bases de datos (con arquitecturas muy diversas) 
 
 ## Modelo relacional
 
+El modelo relacional, para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos.
+Tras ser postuladas sus bases en 1970 por Edgar Frank Codd, de los laboratorios IBM en San José (California), no tardó en consolidarse como un nuevo paradigma en los modelos de base de datos.
+Su idea fundamental es el uso de relaciones. Estas relaciones podrían considerarse en forma lógica como conjuntos de datos llamados tuplas. Pese a que esta es la teoría de las bases de datos relacionales creadas por Codd, la mayoría de las veces se conceptualiza de una manera más fácil de imaginar, pensando en cada relación como si fuese una tabla que está compuesta por registros (cada fila de la tabla sería un registro o “tupla”) y columnas (también llamadas “campos”).
+Es el modelo más utilizado en la actualidad para modelar problemas reales y administrar datos dinámicamente.
+El modelo relacional desarrolla un esquema de base de datos (data base schema) a partir del cual se podrá realizar el modelo físico o de implementación en el DBMS.
+Este modelo esta basado en que todos los datos están almacenados en tablas (entidades/relaciones) y cada una de estas es un conjunto de datos, por tanto una base de datos es un conjunto de relaciones. La agrupación se origina en la tabla: tabla -> fila (tupla) -> campo (atributo).
 
+El Modelo Relacional se ocupa de:
+La estructura de datos
+La manipulación de datos
+La integridad de los datos
 
+Donde las relaciones están formadas por :
+Atributos (columnas)
+Tuplas (Conjunto de filas)
 
+Existen dos formas para la construcción de modelos relacionales:
+
+Creando un conjunto de tablas iniciales y aplicando operaciones de normalización hasta conseguir el esquema más óptimo,
+O, convertir el modelo entidad relación (ER) en tablas, con una depuración lógica y la aplicación de restricciones de integridad.
+
+Objetivos del modelo:
+
+Los objetivos que este modelo persigue son:
+
+Independencia Física: La forma de almacenar los datos no debe influir en su manipulación. Si el almacenamiento físico cambia, los usuarios que acceden a esos datos no tienen que modificar sus aplicaciones.
+
+Independencia Lógica: Las aplicaciones que utilizan la base de datos no deben ser modificadas por que se inserten, actualicen y eliminen datos.
+
+Flexibilidad: En el sentido de poder presentar a cada usuario los datos de la forma en que éste prefiera.
+
+Uniformidad: Las estructuras lógicas de los datos siempre tienen una única forma conceptual (las tablas), lo que facilita la creación y manipulación de la base de datos por parte de los usuarios.
+
+Sencillez: Las características anteriores hacen que este Modelo sea fácil de comprender y de utilizar por parte del usuario final.
+
+Definiciones del Modelo Relacional:
+
+#Relación o tabla
+
+Según el modelo relacional (desde que Codd lo enunció) el elemento fundamental es lo que se conoce
+como relación, aunque más habitualmente se le llama tabla (o también array o matriz). Codd definió
+las relaciones utilizando un lenguaje matemático, pero se pueden asociar a la idea de tabla (de filas y
+columnas) ya que es más fácil de entender.
+No hay que confundir la idea de relación según el modelo de Codd, con lo que significa una relación en
+el modelo Entidad/Relación de Chen. No tienen nada que ver
+Las relaciones constan de:
+Atributos. Referido a cada propiedad de los datos que se almacenan en la relación (nombre,
+dni,...).
+Tuplas. Referido a cada elemento de la relación. Por ejemplo si una relación almacena personas,
+una tupla representaría a una persona en concreto.
+Puesto que una relación se representa como una tabla; podemos entender que las columnas de la tabla
+son los atributos; y las filas, las tuplas.
+
+#Tupla o registro.
+
+Cada una de las filas de la relación. Se corresponde con la idea clásica de registro. Representa por
+tanto cada elemento individual de esa relación.
+
+Tiene que cumplir que:
+
+Cada tupla se debe corresponder con un elemento del mundo real.
+No puede haber dos tuplas iguales (con todos los valores iguales).
+
+#Atributo – Columnas.
+
+Un Atributo en el Modelo Relacional representa una propiedad que posee esa Relación y equivale al atributo del Modelo E-R.
+Se corresponde con la idea de campo o columna.
+
+En el caso de que sean varios los atributos de una misma tabla, definidos sobre el mismo dominio, habrá que darles nombres distintos, ya que una tabla no puede tener dos atributos con el mismo nombre.
+Por ejemplo, la información de las oficinas de una empresa inmobiliaria se representa mediante la relación OFICINA, que tiene columnas para los atributos noficina (número de oficina), calle, área, teléfono y fax.
+
+#Dominio
+
+Un dominio contiene todos los posibles valores que puede tomar un determinado atributo. Dos atributos distintos pueden tener el mismo dominio. 
+Un dominio en realidad es un conjunto finito de valores del mismo tipo. A los dominios se les asigna un nombre y así podemos referirnos a ese nombre en más de un atributo, facilitando la definición de los mismos. 
+La forma de indicar el contenido de un dominio se puede hacer utilizando dos posibles técnicas:
  
+Intensión. Se define el nomino indicando la definición exacta de sus posibles valores. Por intensión se puede definir el dominio de edades de los trabajadores como: números enteros entre el 16 y el 65 (un trabajador sólo podría tener una edad entre 16 y 65 años).
+ 
+Extensión. Se indican algunos valores y se sobreentiende el resto gracias a que se autodefinen con los anteriores. Por ejemplo el dominio localidad se podría definir por extensión así: Valencia, Valladolid, Madrid,... 
+
+Además pueden ser:
+ 
+Generales. Los valores están comprendidos entre un máximo y un mínimo 
+Restringidos. Sólo pueden tomar un conjunto de valores. 
+
+#Grado
+
+Indica el tamaño de una relación en base al número de columnas (atributos) de la misma. Lógicamente cuanto mayor es el grado de una relación, mayor es su complejidad al manejarla.
+
+#Cardinalidad
+
+Número de tuplas de una relación, o número de filas de una tabla!
+
+ Propiedades de las tablas o entidades:
+
+Los datos son atómicos ó mono valuados;
+Los datos de cualquier columna son de un solo tipo.
+Cada columna posee un nombre único.
+El orden de las columnas no es de importancia para la tabla.
+Las columnas de una relación se conocen como atributos.
+Cada atributo tiene un dominio,
+No existen 2 filas en la tabla que sean idénticas.
+La información en las bases de datos son representados como datos explícitos.
+Cada relación tiene un nombre específico y diferente al resto de las relaciones.
+Los valores de los atributos son atómicos: en cada tupla, cada atributo (columna) toma un solo valor. Se dice que las relaciones están normalizadas.
+El orden de los atributos no importa: los atributos no están ordenados.
+Cada tupla es distinta de las demás: no hay tuplas duplicadas
+El orden de las tuplas no importa: las tuplas no están ordenadas.
+Los atributos son atómicos: en cada tupla, cada atributo (columna) toma un solo valor. Se dice que las relaciones están normalizadas.
+
+Claves
+
+Clave candidata
+ 
+Conjunto de atributos que identifican unívocamente cada tupla de la relación. Es decir columnas cuyos valores no se repiten en ninguna otra tupla de esa tabla. Toda tabla en el modelo relacional debe tener al menos una clave candidata (puede incluso haber más) 
+
+Clave primaria 
+
+Clave candidata que se escoge como identificador de las tuplas. Se elige como primaria la candidata que identifique mejor a cada tupla en el contexto de la base de datos. 
+Por ejemplo un campo con el DNI sería clave candidata de una tabla de clientes, si esa tabla tiene un campo de código de cliente, éste sería mejor candidato (y por lo tanto clave principal) porque es mejor identificador para ese contexto. 
+
+Clave alternativa 
+
+Cualquier clave candidata que no sea primaria. 
+
+Clave externa, ajena o secundaria 
+
+Son los datos de atributos de una tabla cuyos valores están relacionados con atributos de otra tabla.
+
+Restricciones:
+
+Se trata condiciones de obligado cumplimiento por las tuplas de la base de datos. 
+Las hay de varios tipos: 
+
+Inherentes
+Son aquellas que no son determinadas por los usuarios, sino que son definidas por el hecho de que la base de datos sea relacional. Las más importantes son: 
+
+No puede haber dos tuplas iguales 
+El orden de las tuplas no es significativo 
+El orden de los atributos no es significativo 
+Cada atributo sólo puede tomar un valor en la tupla y dominio en el que está inscrito 
+
+Semánticas 
+El modelo relacional permite a los usuario incorporar restricciones personales a los datos. Se comentan las diferentes reglas semánticas a continuación: 
+
+Clave principal (primary key) 
+También llamada clave primaria. Marca uno o más atributos como identificadores de la tabla. De esa forma en esos atributos las filas de la tabla no podrán repetir valores ni tampoco dejarlos vacíos. 
+Unicidad (unique) 
+Impide que los valores de los atributos marcados de esa forma, puedan repetirse. 
+Esta restricción debe indicarse en todas las claves alternativas. 
+Al marcar una clave primaria se añade automáticamente sobre los atributos que forman la clave un criterio de unicidad. 
+Obligatoriedad (not null) 
+Prohíbe que el atributo marcado de esta forma quede vacío (es decir impide que pueda contener el valor nulo, null). 
+Regla de validación (check) 
+Condición lógica que debe de cumplir un dato concreto para darlo por válido. Por ejemplo restringir el campo sueldo para que siempre sea mayor de 1000, sería una regla de validación. También por ejemplo que la fecha de inicio sea mayor que la fecha final. 
+Integridad referencial (Foreign key) 
+Sirve para indicar una clave externa (también llamada secundaria y foránea) sobre uno o más atributos. Los atributos marcados de esta forma sólo podrán contener valores que estén relacionados con la clave principal de la tabla que relacionan (llamada tabla principal). Dichos atributos sí podrán contener valores nulos. 
+Es decir si hay una tabla de alquileres en la que cada fila es un alquiler, existirá un atributo cod_cliente que indicará el código del cliente y que estará relacionado con una tabla de clientes, en la que dicho atributo es la clave principal. De hecho no se podrá incluir un código que no esté en la tabla clientes; eso es lo que prohíbe la integridad referencial. 
+
+Problemas ocasionados por el borrado de una  Foreign key
+
+Posibles soluciones
+
+Estos problemas lo causan las operaciones de borrado y modificación de registros; ya que si se ejecutan esas operaciones sobre la tabla principal (si se modifica o borra un cliente) quedarán filas en la tabla secundaria con la clave externa haciendo referencia a un valor que ya no existe en la tabla principal. 
+Para solventar esta situación se puede hacer uso de estas opciones:
+ 
+Prohibir la operación (no action). 
+Transmitir la operación en cascada (cascade). Es decir si se modifica o borra un cliente; también se modificarán o barrarán los alquileres relacionados con él. 
+Colocar nulos (set null) Las referencias al cliente en la tabla de alquileres se colocan como nulos (es decir, alquileres sin cliente). 
+Usar el valor por defecto (default). Se colocan un valor por defecto en las claves externas relacionadas. Este valor se indica al crear la tabla (opción default). 
+
+Paso de Entidad/Relación de Chen al Modelo Relacional 
+
+Transformación de las entidades fuertes 
+En principio las entidades fuertes del modelo Entidad Relación son transformados al modelo relacional siguiendo estas instrucciones:
+ 
+Entidades. Las entidades pasan a ser tablas 
+Atributos. Los atributos pasan a ser columnas o atributos de la tabla. 
+Identificadores principales. Pasan a ser claves primarias 
+Identificadores candidatos. Pasan a ser claves candidatas. 
+
+
+
+
 
 
