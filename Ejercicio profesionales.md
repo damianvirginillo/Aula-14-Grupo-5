@@ -16,3 +16,9 @@ Las competencias  transversales  o soft skills son todas aquellas habilidades,co
 
 ## Leyes de base de datos
 
+Las bases de datos y su uso por las empresas y otras instituciones están reguladas por la LOPD (Ley Orgánica de Protección de Datos).  
+
+Esta normativa establece las obligaciones con las que deben cumplir los responsables del tratamiento de ficheros con datos personales para fines comerciales, como es el caso de las empresas de marketing que utilizan bases de datos para la gestión de sus campañas. 
+
+La esencia de esta ley es que los titulares de los datos tengan conocimiento de cuáles son los datos que ha recabado una empresa y qué uso tiene previsto hacer de ellos. Y, por supuesto, este uso solo se puede hacer si el titular de los datos lo permite. 
+
