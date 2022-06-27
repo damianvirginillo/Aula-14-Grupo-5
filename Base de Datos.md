@@ -136,6 +136,39 @@ Década de los 90´:
  # Issues °14
  
  ## MySQL
+ 
+ Orígenes:
+ 
+ Los orígenes de SQL están ligados a las bases de datos relacionales, específicamente las que residían en máquinas IBM bajo el sistema de gestión System R, desarrollado por un grupo de la IBM en San José, California.
+En 1970, E. F. Codd propone el modelo relacional y asociado a este un sublenguaje de acceso a los datos basado en el cálculo de predicados.
+Basándose en estas ideas, los laboratorios de IBM definieron el lenguaje SEQUEL (Structured English Query Language) que más tarde fue ampliamente implementado por el sistema de gestión de bases de datos (SGBD) experimental System R, desarrollado en 1977 también por IBM. 
+Sin embargo, fue Oracle quien lo introdujo por primera vez en 1979 en un producto comercial.
+El SEQUEL terminó siendo el predecesor de SQL, que es una versión evolucionada del primero. SQL pasa a ser el lenguaje por excelencia de los diversos sistemas de gestión de bases de datos relacionales surgidos en los años siguientes y fue por fin estandarizado en 1986 por el ANSI, dando lugar a la primera versión estándar de este lenguaje, "SQL-86" o "SQL1". 
+Al año siguiente este estándar es también adoptado por ISO.
+Sin embargo, este primer estándar no cubría todas las necesidades de los desarrolladores e incluía funcionalidades de definición de almacenamiento que se consideró suprimirlas. Así que, en 1992, se lanzó un nuevo estándar ampliado y revisado de SQL llamado "SQL-92" o "SQL2".
+
+En la actualidad SQL es el estándar de facto de la inmensa mayoría de los SGBD comerciales. 
+Y, aunque la diversidad de añadidos particulares que incluyen las distintas implementaciones comerciales del lenguaje es amplia, el soporte al estándar SQL-92 es general y muy amplio.
+
+Uso de SQL para consultar SGBD:
+
+En una base de datos relacional, no es necesario especificar la ruta de acceso a las tablas y tampoco es necesario saber cómo se organizan los datos de forma física.
+Para acceder a la base de datos, ejecute una sentencia de lenguaje de consulta estructurado (SQL), que es el lenguaje estándar de ANSI (American National Standards Institute) para el funcionamiento de bases de datos relacionales. SQL es un juego de sentencias con el que todos los programas y usuarios acceden a los datos de una Database. Los programas y las herramientas de un SGBD a menudo permiten el acceso de usuarios a la base de datos sin utilizar directamente SQL, pero estas aplicaciones a su vez deben utilizar SQL al ejecutar la solicitud del usuario.
+SQL proporciona sentencias para distintas tareas, que incluyen las siguientes:
+Consulta de datos
+Inserción, actualización y supresión de filas en una tabla
+Creación, sustitución, modificación y borrado de objetos
+Control de acceso a la base de datos y los objetos
+Garantía de integridad y consistencia de la base de datos
+SQL unifica todas las tareas anteriores en un lenguaje consistente y permite trabajar con datos en el nivel lógico.
+
+Crear una Base de Datos en MySQL
+
+Crear una Base de Datos en el gestor MySQL es un proceso relativamente fácil, la complejidad dependerá de la dimensión de la Base de Datos a crear, es decir la cantidad de tablas y relaciones que nuestra base de datos necesitara para llevar a cabo las tareas propuestas. 
+El gestor de Base de Datos MySQL es uno de los más populares a nivel mundial, su gratuidad y funcionalidad lo ha convertido en uno de los más utilizados en la actualidad; gran parte de las páginas web de Internet hacen uso de una Base de datos creado en MySQL.
+Para crear una Base de Datos en MySQL es indispensable tener instalado MySQL Server, que nos proporciona el servicio de gestión de Bases de Datos, y para hacer fácil el proceso de administración requerimos tener instalado MySQL Workbench que es una herramienta visual que nos permite administrar nuestras Bases de Datos de forma fácil. 
+Es importante aclarar que hay diversas opciones para crear Bases de Datos en MySQL, lo podemos hacer a través de consola únicamente instalando MySQL Server, podemos hacerlo con la herramienta PhpMyAdmin que viene o incluida en el paquete de XAMP o Wamp server u otras herramientas integradas.
+Sin embargo haremos uso de la herramienta MySQL WorkBench que además de administrar, gestionar y dar mantenimientos a nuestra Base de Datos de forma gráfica, nos permite modelar diagramas de Entidad relación de forma intuitiva.
 
 # Issues °15
 
