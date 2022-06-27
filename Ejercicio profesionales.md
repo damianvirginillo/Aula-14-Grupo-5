@@ -11,6 +11,15 @@ Las competencias  transversales  o soft skills son todas aquellas habilidades,co
 # Issues °19
 
 ## Comunicacion asertiva
+Como comunicación asertiva denominamos aquella mediante la cual logramos manifestar a los otros de forma simple, clara y oportuna, lo que sentimos, queremos o pensamos. Es una habilidad social de gran valor, que está asociada a la inteligencia emocional y a la capacidad para comunicarse de manera armoniosa y eficaz con los demás.
+
+Se trata de comunicar de manera clara y objetiva nuestro punto de vista, nuestros deseos o nuestros sentimientos, con honestidad y respeto, sin menoscabar, ofender o herir al otro o a sus ideas u opiniones.
+
+Evitar errores frecuentes en la comunicación, como los ataques personales, los reproches o las ofensas, que no hacen sino dificultar la comunicación, hacerla inefectiva o, simplemente, invalidarla.
+
+En la comunicación asertiva se procede de este modo porque este tipo de comunicación se basa, fundamentalmente, en el respeto: se respeta al otro y a lo que este quiera o necesite expresar. Pero también se construye sobre la empatía por el otro, pues esto permite que haya acercamientos y confianza mutua entre las personas y sus diferentes posturas.
+
+Otro aspecto muy importante es la interlocución constante y la voluntad de negociar en algunas cuestiones o ceder en ciertas posturas y, sobre todo, de cooperar con el fin de poder llegar siempre a una solución.
 
 # Issues °20
 
