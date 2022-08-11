@@ -15,7 +15,7 @@ CREATE TABLE `perro` (
   `ID_Perro` INT NOT NULL AUTO_INCREMENT,
   `Fecha_nac` DATE NULL,
   `Sexo` VARCHAR(10) NULL,
-  `DNI_Dueno` INT NULL,
+  `DNI_Dueno` INT NOT NULL,
   PRIMARY KEY (`ID_Perro`),
   INDEX `DNI_Dueno_idx` (`DNI_Dueno` ASC),
   CONSTRAINT `DNI_Dueno`
@@ -28,7 +28,7 @@ CREATE TABLE `perro` (
 CREATE TABLE `historial` (
   `ID_Historial` INT NOT NULL AUTO_INCREMENT,
   `Fecha` DATE NULL,
-  `Perro` INT NULL,
+  `Perro` INT NOT NULL,
   `Descripcion` VARCHAR(100) NULL,
   `Monto` DECIMAL NULL,
   PRIMARY KEY (`ID_Historial`),
