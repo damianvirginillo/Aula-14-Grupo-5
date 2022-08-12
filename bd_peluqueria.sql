@@ -13,6 +13,7 @@ CREATE TABLE `dueno` (
 
 CREATE TABLE `perro` (
   `ID_Perro` INT NOT NULL AUTO_INCREMENT,
+  `Nombre` VARCHAR(30) NOT NULL,
   `Fecha_nac` DATE NULL,
   `Sexo` VARCHAR(10) NULL,
   `DNI_Dueno` INT NOT NULL,
