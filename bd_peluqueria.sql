@@ -3,7 +3,7 @@ CREATE SCHEMA `peluqueria_canina` ;
 use peluqueria_canina;
 
 CREATE TABLE `dueno` (
-  `DNI` INT NOT NULL AUTO_INCREMENT,
+  `DNI` INT NOT NULL,
   `Nombre` VARCHAR(50) NULL,
   `Apellido` VARCHAR(50) NULL,
   `Telefono` VARCHAR(25) NULL,
