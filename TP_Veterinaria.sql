@@ -37,7 +37,38 @@ Direccion VARCHAR (25) NULL);
  ON DELETE NO ACTION
  ON UPDATE NO ACTION);
  
+* 1- Realice la consulta correspondiente para crear la tabla Perro, teniendo en cuenta sus claves foráneas y primarias.
 
+* 2- Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
+ 
+INSERT INTO dueno
+VALUE (34869446, "Pablo", "Gonzalez", 351454483, "Belgrano 1049"),
+(34868448, "Julieta", "Muract", 3514448565, "Cosquin 87"),
+(32545829, "Catalina", "Cruz", 3516658745, "Mercedes 4985");
+
+INSERT INTO Perro
+VALUE (1, "Siberia", '2016/04/09', "Hembra", 34869446),
+(2, "Gorda", '2022/01/15', "Hembra", 34868448),
+(3, "Negro", '2021/05/17', "Macho", 32545829);
+
+INSERT INTO Historial
+VALUE (3,"2017/07/20", 1,"collie",50000),
+  (2,"2022/02/01", 2,"labrador",4000),
+  (4,"2021/07/05", 3,"schnauzer",2000);
+  
+  * 3- Borre un animal que ya no va a ser atendido. 
+  Para ello consulte antes en el historial, algún animal que ya no sea atendido desde hace mucho tiempo.
+
+select * from Historial
+ORDER BY Fecha;
+
+DELETE FROM Historial
+WHERE ID_Historial=1;
+
+4- Actualice la fecha de nacimiento de algún animal (perro) que usted considere.
+
+UPDATE Perro SET Fecha_nac = "2021/11/30"
+WHERE ID_Perro = 2;
  
    
  
