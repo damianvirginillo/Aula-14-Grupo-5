@@ -1,4 +1,4 @@
-# Ejercicio profecionales
+# Ejercicio profesional
 
 # Issues °17
 
