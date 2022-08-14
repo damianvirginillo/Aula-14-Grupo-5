@@ -69,7 +69,7 @@ vALUES ( "tys-012" , 113 , 3580 , "2015-12-10" , " pitbull " ),
 ( "lei-009" , 094 , 7630 , "2020-01-07" , " chihuahua " );
 
 
--- Ejerccio 6 --
+-- Ejercicio 6 --
 
 SELECT * FROM HISTORIAL
 WHERE FECHA> "2022/01/01";
